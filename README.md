@@ -63,7 +63,7 @@ python main.py
 
 > **SSL Certificate Issues?** If you encounter certificate errors during testing, set `verify=False` in `.venv/lib/python3.13/site-packages/mcp/shared/_httpx_utils.py` (line 83). *For testing only—not recommended for production.*
 
-I have logged issue here - https://github.com/modelcontextprotocol/python-sdk/issues/1791
+I have logged issue here - https://github.com/crewAIInc/crewAI/issues/4100
 
 ## Resources
 
