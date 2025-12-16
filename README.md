@@ -1,4 +1,4 @@
-# CrewAI + Snowflake MCP Integration
+# CrewAI (Agentic AI) + Snowflake MCP Integration
 
 Simple project demonstrating how to integrate CrewAI agents with Snowflake via MCP (Model Context Protocol) to expose Snowflake resources and tools to AI agents.
 
