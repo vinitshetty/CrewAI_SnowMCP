@@ -32,8 +32,18 @@ That's it. Your agent now has access to all Snowflake MCP tools and resources.
 
 ```.env file
 SNOWFLAKE_PAT_TOKEN=your_pat_token
-SNOWFLAKE_MCP_URL=your_mcp_server
+SNOWFLAKE_MCP_URL=your_mcp_server_url
 GOOGLE_API_KEY=your_gemini_key
+```
+
+**MCP URL Format:**
+```
+https://<org>-<account>.snowflakecomputing.com/api/v2/databases/<DATABASE>/schemas/<SCHEMA>/mcp-servers/<MCP_SERVER_NAME>
+```
+
+Example:
+```
+https://sfsenorthamerica-sg_demo13.snowflakecomputing.com/api/v2/databases/DASH_DB_SWT_2025/schemas/RETAIL/mcp-servers/mcp_server_swt_2025
 ```
 
 ### 2. Install & Run
